@@ -1,3 +1,8 @@
+const a = 5;
+const b = 8;
+const c = (a * b) / 2;
+console.log("Triangle area:", c);
+
 // when all sides a known
 
 let s1 = 5;
