@@ -15,6 +15,3 @@ const tripe = (c) => {
     return (c - 19) * 3;
   }
 };
-
-console.log(tripe(12));
-console.log(tripe(22));
