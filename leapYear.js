@@ -10,4 +10,4 @@ const LeapYear = (year) => {
   }
 };
 
-const result = LeapYear(2003);
+LeapYear(2003);
