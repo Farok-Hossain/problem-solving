@@ -16,3 +16,17 @@ console.log(startsWith("Python"));
 console.log(startsWith("Java"));
 console.log(startsWith("java"));
 console.log(startsWith("React"));
+
+const EndsWith = (str2) => {
+  let re = str2.slice(-6);
+  if (re == "Script") {
+    return true;
+  } else {
+    return false;
+  }
+};
+
+console.log(EndsWith("Javascript"));
+console.log(EndsWith("JavaScript"));
+console.log(EndsWith("Python"));
+console.log(EndsWith("React"));
