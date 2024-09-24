@@ -30,3 +30,11 @@ console.log(EndsWith("Javascript"));
 console.log(EndsWith("JavaScript"));
 console.log(EndsWith("Python"));
 console.log(EndsWith("React"));
+
+let text = "Front end web developer";
+let result = text.includes("web");
+console.log("textCheck:", result);
+
+const str3 = "I love watching football";
+const substr = "watching";
+console.log("char:", str3.includes(substr));
