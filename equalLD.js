@@ -25,3 +25,21 @@ const sumDifference = (x, y) => {
 console.log("sumDiff");
 console.log(sumDifference(13, 15));
 console.log(sumDifference(18, 3));
+
+const multipleOfNumbers = (g, h) => {
+  if ((g % 7 == 0 || g % 11 == 0) && (h % 7 == 0 || h % 11 == 0)) {
+    return false;
+  }
+  if (h % 7 == 0 || h % 11 == 0) {
+    return true;
+  }
+  if (g % 7 == 0 || g % 11 == 0) {
+    return true;
+  } else {
+    return false;
+  }
+};
+
+console.log("multiple");
+console.log(multipleOfNumbers(7, 20));
+console.log(multipleOfNumbers(22, 28));
