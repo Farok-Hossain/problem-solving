@@ -43,3 +43,8 @@ const multipleOfNumbers = (g, h) => {
 console.log("multiple");
 console.log(multipleOfNumbers(7, 20));
 console.log(multipleOfNumbers(22, 28));
+console.log(multipleOfNumbers(4, 2));
+
+// reverse string
+let name = "farok hossain";
+console.log(name.split("").reverse().join(""));
