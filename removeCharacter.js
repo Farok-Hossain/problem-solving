@@ -11,3 +11,11 @@ console.log(p);
 
 const g = "Python";
 console.log(g.length);
+
+const removeCharac = (cha) => {
+  return cha.substring(1, cha.length - 1);
+};
+
+console.log(removeCharac("javascript"));
+console.log(removeCharac("js"));
+console.log(removeCharac("php"));
