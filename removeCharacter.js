@@ -12,10 +12,28 @@ console.log(p);
 const g = "Python";
 console.log(g.length);
 
-const removeCharac = (cha) => {
+const remove1stLastCha = (cha) => {
   return cha.substring(1, cha.length - 1);
 };
 
-console.log(removeCharac("javascript"));
-console.log(removeCharac("js"));
-console.log(removeCharac("php"));
+console.log(remove1stLastCha("javascript"));
+console.log(remove1stLastCha("js"));
+console.log(remove1stLastCha("php"));
+
+const concatenate = (s1, s2) => {
+  s1 = s1.substring(1);
+  s2 = s2.substring(1);
+  return s1 + s2;
+};
+
+console.log(concatenate("farok", "hossain"));
+console.log(concatenate("python", "js"));
+
+// last 3 characters move to first
+const chaMove = (str) => {
+  if (str.length >= 3) {
+    return str.slice(-3) + str.slice(0, -3);
+  }
+};
+
+console.log(chaMove("farokafs"));
