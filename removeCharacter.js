@@ -37,3 +37,16 @@ const chaMove = (str) => {
 };
 
 console.log(chaMove("farokafs"));
+
+const t = "farok";
+console.log(t.substring(0, 3));
+
+const sameElements = (int) => {
+  const lastEle = int.length - 1;
+  return int[0] == int[lastEle];
+};
+
+console.log(sameElements([12, 15, 29, 34]));
+console.log(sameElements([10, 15, 29, 30]));
+console.log(sameElements([20, 15, 29, 30]));
+console.log(sameElements([2, 2]));
