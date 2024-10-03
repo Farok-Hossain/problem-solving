@@ -1,5 +1,5 @@
 const addTwoDigit = (n) => {
-  return (n % 10) + Math.floor(n / 10);
+  return Math.floor(n / 10) + (n % 10);
 };
 
 console.log(addTwoDigit(34));
