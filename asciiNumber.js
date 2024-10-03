@@ -1,4 +1,4 @@
-// print character & ascii number
+// print character & ascii value
 const f = "farok Hossain 123@#$<";
 for (let i = 0; i <= f.length; i++) {
   console.log("ascii number of", f.charAt(i), "=", f.charCodeAt(i));
