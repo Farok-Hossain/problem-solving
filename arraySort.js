@@ -1,4 +1,5 @@
 const fruits = ["Mango", "Banana", "Orange", "Apple", "Papaya"];
+console.log(fruits.at(2));
 console.log(fruits.sort());
 console.log(fruits.reverse());
 
