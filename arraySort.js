@@ -18,3 +18,8 @@ const points = [40, 67, 2, 5, 54, 29, 34, 6];
 console.log(points.sort((a, b) => a - b));
 
 console.log(points.sort((a, b) => b - a));
+
+let text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+let length = text.length;
+console.log(length);
+console.log(text.indexOf("B"));
