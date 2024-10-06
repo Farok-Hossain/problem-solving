@@ -23,3 +23,11 @@ let text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 let length = text.length;
 console.log(length);
 console.log(text.indexOf("B"));
+
+let x = 1234567890123456789012345n;
+let y = BigInt(1234567890123456789012345);
+console.log(y);
+
+let v = 12345;
+console.log(v.toString());
+console.log((1234 + 12).toString());
