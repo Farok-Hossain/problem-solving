@@ -31,3 +31,5 @@ console.log(y);
 let v = 12345;
 console.log(v.toString());
 console.log((1234 + 12).toString());
+console.log(v);
+console.log("AFS");
