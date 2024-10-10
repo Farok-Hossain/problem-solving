@@ -6,3 +6,6 @@ const LongestString = (stg) => {
 };
 
 console.log(LongestString("FrontEnd web Developer"));
+console.log(
+  LongestString("I am farok hossain, I am a professional software enginner")
+);
