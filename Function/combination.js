@@ -11,3 +11,5 @@ const CombinatinOfString = (str) => {
 };
 
 console.log(CombinatinOfString("dog"));
+console.log(CombinatinOfString("Farok"));
+console.log(CombinatinOfString("123"));
