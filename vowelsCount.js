@@ -23,3 +23,4 @@ const countVowel = (str) => {
 };
 
 console.log(countVowel("I love programming"));
+console.log(countVowel("Front end web developer"));
