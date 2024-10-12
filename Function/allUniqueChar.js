@@ -6,7 +6,8 @@ function all_unique_char(st) {
       uniql += st1[i];
     }
   }
+  //   console.log(uniql.length);
   return uniql;
 }
 
-console.log(all_unique_char("farokafs"));
+console.log(all_unique_char("thequickbrownfoxjumpsoverthelazydog"));
