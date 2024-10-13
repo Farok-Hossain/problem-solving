@@ -6,7 +6,7 @@ const factorial = (n) => {
   }
 };
 
-console.log(factorial(5));
+console.log(factorial(7));
 
 // another way
 const factorial2 = (n) => {
@@ -20,4 +20,10 @@ const factorial2 = (n) => {
   return fact;
 };
 
-console.log(factorial2(4));
+console.log("factorial 10 is: ", factorial2(10));
+
+// print the function name
+function ab() {
+  return arguments.callee.name;
+}
+console.log(ab());
