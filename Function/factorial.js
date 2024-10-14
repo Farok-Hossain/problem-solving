@@ -6,7 +6,7 @@ const factorial = (n) => {
   }
 };
 
-console.log(factorial(7));
+console.log(factorial(5));
 
 // another way
 const factorial2 = (n) => {
@@ -27,3 +27,14 @@ function ab() {
   return arguments.callee.name;
 }
 console.log(ab());
+
+// sum of n numbers
+function summ(n) {
+  let sum = 0;
+  for (let x = 1; x <= n; x++) {
+    sum += x;
+  }
+  return sum;
+}
+
+console.log(summ(6));
