@@ -35,7 +35,11 @@ for (ele of myString) {
 }
 
 const cars = ["A", "B", "C", "D", "E", "F"];
-console.log(cars.length);
+for (let i = 0; i < cars.length; i++) {
+  console.log(i);
+}
+
+// console.log(cars.length);
 for (pro of cars) {
   console.log("Car name:", pro);
 }
@@ -43,3 +47,10 @@ for (pro of cars) {
 for (proo in cars) {
   console.log(proo);
 }
+
+const name2 = "farok";
+for (let j = 0; j < name2.length; j++) {
+  console.log(j);
+}
+
+console.log(name2.indexOf("r"));
