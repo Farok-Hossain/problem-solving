@@ -61,3 +61,11 @@ const fruits = ["apple", "orange", "cherry", "banana"];
 fruits.forEach((item) => {
   console.log(item);
 });
+
+const itmes = [1, 43, 67];
+const squareItems = [];
+itmes.forEach((item) => {
+  squareItems.push(item * item);
+});
+
+console.log(squareItems);
