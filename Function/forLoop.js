@@ -54,3 +54,10 @@ for (let j = 0; j < name2.length; j++) {
 }
 
 console.log(name2.indexOf("r"));
+
+console.log(typeof null);
+
+const fruits = ["apple", "orange", "cherry", "banana"];
+fruits.forEach((item) => {
+  console.log(item);
+});
