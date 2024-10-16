@@ -69,3 +69,10 @@ itmes.forEach((item) => {
 });
 
 console.log(squareItems);
+
+let students = ["John", "Ema", "Sara", "Tessa"];
+
+students.forEach((item, indx, arr) => {
+  arr[indx] = "Hello " + item;
+});
+console.log(students);
