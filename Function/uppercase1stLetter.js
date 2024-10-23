@@ -7,3 +7,4 @@ const Uppercase = (str) => {
   return newArr1.join(" ");
 };
 console.log(Uppercase("the quick brown fox"));
+console.log(Uppercase("front end web development!"));
