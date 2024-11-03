@@ -1,17 +1,13 @@
 let n = 5;
+let pattern = "";
 for (let i = 1; i <= n; i++) {
-  let str = "";
-  let count = 1;
-  for (let j = 1; j <= 2 * n; ++j) {
-    if (i + j >= n + 1 && i >= j - n + 1) {
-      // Add a space after each number
-      str += count.toString() + " ";
-      count++;
-    } else {
-      // Add two spaces for the gap
-      str += "  ";
-    }
+  for (let j = 1; j <= n - i; j++) {
+    pattern += " ";
   }
-
-  console.log(str);
+  for (j = 1; j <= i; j++) {
+    pattern += "* ";
+  }
+  pattern += "\n";
 }
+
+console.log(pattern);
